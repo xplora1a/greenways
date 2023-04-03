@@ -162,7 +162,7 @@ section:nth-child(even) {
 }
 
 .navbar-main {
-  background-color: #ffffff9c;
+  background-color: #7a9aac;
   border-bottom: 1px solid #1a1a1a;
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -184,7 +184,7 @@ section:nth-child(even) {
   height: 50px;
 }
 .navbar-main .navbar-nav li a {
-  color: #2f0ed2;
+  color: #04621a;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 600;
@@ -221,17 +221,16 @@ section:nth-child(even) {
   background-color: #fff;
 }
 .navbar-main .navbar-toggle:hover, .navbar-main .navbar-toggle:focus {
-  background-color: #111111;
+  background-color: #ffffff9c;
 }
 
 .navbar-fixed {
-  background-image: url("../image/collage.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
   width: 100%;
-  background-color: #111111;
+  background-color: #ffffff9c;
   border: none;
 }
 
@@ -249,9 +248,7 @@ footer {
   position: relative;
   border-top: 1px solid #97CCCD;
 }
-footer p {
-}
-
+ 
 /*=== 2.3 BANNER ===*/
 .banner-area {
   background-image: url("../image/collage.png");

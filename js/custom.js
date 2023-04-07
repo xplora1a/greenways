@@ -21,17 +21,12 @@ jQuery(document).ready(function($) {
 //============================== Caroucel Filter =========================
 $(document).ready(function () {
 
-  $("#testimonial-slider").owlCarousel({
+  $(".owl-carousel").owlCarousel({
 
     autoPlay: 3000, //Set AutoPlay to 3 seconds
-    navigation: false,
+    navigation: true,
     navigationText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
     pagination: true,
-    items: 2,
-    itemsDesktop: [1199, 2],
-    itemsDesktopSmall: [979, 2],
-    itemsDesktopSmall: [768, 1],
-    itemsDesktopSmall: [479, 1]
-
+    items: 1,
   });
 });

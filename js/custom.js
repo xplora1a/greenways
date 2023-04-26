@@ -23,10 +23,20 @@ $(document).ready(function () {
 
   $(".owl-carousel").owlCarousel({
 
-    autoPlay: 3000, //Set AutoPlay to 3 seconds
-    navigation: true,
-    navigationText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
-    pagination: true,
-    items: 1,
+    autoPlay:3000,
+    margin:10,
+    items:2,
+    navagation:true,
+    navigationText:["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
+    pagination:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        1200:{
+            items:2
+        }
+      }
   });
 });

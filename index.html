@@ -19,9 +19,6 @@
     <link href="plugins/selectbox/select_option1.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="plugins/owl-carousel/owl.theme.css" media="screen">
     <link rel="stylesheet" type="text/css" href="plugins/owl-carousel/owl.carousel.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="plugins/progressbar/progressbar.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="plugins/fancybox/jquery.fancybox.min.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="plugins/vendor/normalize.css" media="screen">
 
     <!-- GOOGLE FONT -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
@@ -177,9 +174,7 @@
           <h3>Selected Household Rubbish</h3>
           <p>As we grow, we aim to offer more general recycling opportunities for household rubbish, including those items that
              are not recycled as part of local authority collections. Currently we are collecting:</p>
-          <ul><li><p>● Printer cartridges, including laser cartridges.</p></li>
-            <li><p>● Batteries</p></li></ul><br>  
-          <div class="owl-carousel">
+          <div class="owl-carousel owl-theme owl-loaded owl-drag">
             <div><img src="image/recycle-bra.png" >
             <h3>Unwanted Bras</h3>
             <p>We collect bras which are given to local charity Stepping Forward 
@@ -193,6 +188,23 @@
               <p>We also collect sunglasses, hats and long-sleeved shirts for people with albinism in Sierra Leone 
                 through a partnership with the Sierra Leone Association of People With Albinism.</p>
               <p>We are able to send these items free of charge with the support of a shipping company.</p>
+            </div>
+            <div><img src="image/battery_recycling.png">
+              <h3>Batteries</h3>
+              <p>Batteries contain toxic chemicals, such as mercury, lead, cadmium, and nickel, that can contaminate soil 
+                and water when not disposed of correctly. These chemicals can harm wildlife, pollute water sources, and 
+                accumulate in the food chain, posing a threat to ecosystems and human health. Recycling batteries is the 
+                responsible way to dispose of them, as it allows for the extraction of valuable materials and reduces the 
+                risk of environmental pollution.</p>
+            </div>
+            <div><img src="image/printers-cartridge.png">
+              <h3>Printer Cartridges</h3>
+              <p>Printer cartridges, includeing laser cartriges, are made of a combination of plastic, metal, and ink, and 
+                when not disposed of correctly, they can end up in landfills, contributing to pollution and waste. Recycling 
+                printer cartridges helps conserve resources, reduce energy consumption, and prevent unnecessary landfill 
+                waste. Many printer cartridges can be refilled or remanufactured, reducing the need for new cartridges and 
+                conserving raw materials.
+              </p>
             </div>
           </div>
         </div>
@@ -233,10 +245,10 @@
       </section>
 
 
-      <!-- Join Section -->
+      <!-- News Section -->
       <section id="news" class="work-area">
         <div class="container">
-
+            <ul id="rssFeedList"></ul>
         </div>
       </section>
 
@@ -246,7 +258,7 @@
           <p class="section-subtitle">Donations allow us to pay our bills, and help us operate.</p></br>
           <p class="section-subtitle"><strong>Thank you</strong> in advance for your generosity!</p></br>
           <p class="text-center"><a href="" target="_blank" rel="noopener">
-            <img src="images/paypal-button.gif" width="160" height="47"></a></p>
+            <img src="image/paypal-button.gif" width="160" height="47"></a></p>
 
 
         </div>
@@ -275,15 +287,6 @@
     <script src="plugins/jquery-ui/jquery-ui.js"></script>
     <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
-    <script src="plugins/filter/filter.js"></script>
-    <script src="plugins/counterup/waypoint.js"></script>
-    <script src="plugins/counterup/jquery.counterup.min.js"></script>
-    <script src="plugins/progressbar/progressbar.js"></script>
-    <script src="plugins/paroller/jquery.paroller.min.js"></script>
-    <script src="plugins/smooth-scroll/jquery.nicescroll.min.js"></script>
-    <script src="plugins/smooth-scroll/jquery.nav.js"></script>
-    <script src="plugins/smooth-scroll/jquery.smooth-scroll.js"></script>
-    <script src="plugins/fancybox/jquery.fancybox.min.js"></script>
 
     <!-- Custom JS-->
     <script src="js/custom.js"></script>
